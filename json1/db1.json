@@ -1,0 +1,16 @@
+{
+    "teacher":[
+        {
+            "id":1,
+            "name":"Saran",
+            "dept":"MCA",
+            "clg":"BDU"
+        },
+        {
+            "id":2,
+            "name":"Sri devi",
+            "dept":"ECE",
+            "clg":"DSCE"
+        }
+    ]
+}

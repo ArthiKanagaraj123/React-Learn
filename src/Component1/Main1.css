@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+/* ABOUT SECTION */
+.about {
+  background-color: #f9f9f9;
+}
+.about .text {
+  width: 50%;
+}
+.about .image {
+  width: 45%;
+}
+.about img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* GALLERY SECTION */
+.gallery {
+  background-color: #fff3e0;
+  display: flex;
+  justify-content: space-around;
+}
+.gallery img {
+  width: 45%;
+  height: 90%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* CONTENT SECTION */
+.content {
+  background-color: #e3f2fd;
+}
+.content .image {
+  width: 45%;
+}
+.content .text {
+  width: 50%;
+}
+.content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* CONTACT SECTION */
+.contact {
+  background-color: #f0f0f0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  margin-bottom: 20px;
+}
+form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 400px;
+  margin: auto;
+}
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #0056b3;
+}
